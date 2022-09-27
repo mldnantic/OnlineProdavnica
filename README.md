@@ -3,11 +3,11 @@ Mladen Antic 17545
 
 Ovaj projekat predstavlja implementaciju internet prodavnice. U prodavnici se nalaze artikli koje je moguce dodavati u korpu. Aplikacija je tako implementirana da samo jedna korpa postoji za jednu prodavnicu. Kada se obavi kupovina, korpa se prazni i svi artikli iz nje se dodaju na racun koji se kreira za svaku kupovinu. Racun moze da sadrzi vise artikala i artikal se moze naci na vise racuna (M:N veza na dijagramu ispod). Dizajn aplikacije je fleksibilan na taj nacin da se deo gde se prikazuju artikli, sadrzaj korpe i racuni prilagodjava unutrasnjem sadrzaju, dok deo za komande zadrzava visinu(slika 2). Na mobilnim telefona se komande crtaju na vrhu a ostatak prikaza aplikacije se iscrtava ispod i siri se od ivice do ivice ekrana(slika 3).
 
-![Slika 1](slike za opis/DIJAGRAMEER.png)
+![DIJAGRAMEER](slike za opis/DIJAGRAMEER.png)
 
-![Slika 2](slike za opis/slika2.png)
+![slika2](slike za opis/slika2.png)
 
-![Slika 3](slike za opis/slika3.png)
+![slika3](slike za opis/slika3.png)
 
 # Funkcije
 
