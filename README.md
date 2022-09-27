@@ -28,8 +28,8 @@ Klikom na dugme izmeni mozemo promeniti cenu artikla ukoliko artikal sa takvim i
 
 Artikal se ubacuje u korpu klikom na dugme Dodaj u korpu. Korpa se moze prikazati klikom na dugme Prikazi korpu u okviru komandi aplikacije. Klikom na dugme Nazad vraca se prikaz artikala u radnji. Artikal se izbacuje iz korpe klikom na dugme Izbaci iz korpe.
 ![](https://github.com/mldnantic/OnlineProdavnica/blob/main/slike%20za%20opis/korpa1.png)
-![](https://github.com/mldnantic/OnlineProdavnica/blob/main/slike%20za%20opis/korpa2.png)
 ![](https://github.com/mldnantic/OnlineProdavnica/blob/main/slike%20za%20opis/korpa3.png)
+![](https://github.com/mldnantic/OnlineProdavnica/blob/main/slike%20za%20opis/korpa2.png)
 Kada korpa u prodavnici sadrzi bar jedan artikal klikom na dugme Kupi kreira se racun u bazi. Racun sadrzi ukupan iznos koji je placen za sve artikle u trenutku kupovine, datum kupovine, i artikle koji su na konkretnom racunu. Klikom na dugme Detalji prikazuju se artikli na racunu. 
 ![](https://github.com/mldnantic/OnlineProdavnica/blob/main/slike%20za%20opis/racun1.png)
 ![](https://github.com/mldnantic/OnlineProdavnica/blob/main/slike%20za%20opis/racun2.png)
