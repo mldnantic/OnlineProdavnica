@@ -1,0 +1,246 @@
+h1
+{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(90, 90, 95);
+    color:gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2
+{
+    color: gainsboro;
+}
+
+.stavka
+{
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius:5px;
+    width:95%;
+    height:fit-content;
+}
+
+.artikal
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin:5px;
+    padding: 5px;
+    border:1px solid black;
+    background-color: gainsboro;
+    border-radius:5px;
+    width: 20%;
+    height: fit-content;
+}
+
+.artikli
+{
+    display: flex;
+    flex-flow:row wrap;
+    flex:2.5 0;
+    justify-content:flex-start;
+    background-color: rgb(75, 74, 74);
+    padding: 5px;
+    margin: 5px;
+    border-radius:5px;
+}
+
+.korparacun
+{
+    display: flex;
+    flex-flow:column wrap;
+    flex:2.5 0;
+    justify-content:flex-start;
+    background-color: rgb(75, 74, 74);
+    padding: 5px;
+    margin: 5px;
+    border-radius:5px;
+}
+
+.glavniProzor
+{
+    background-color: rgb(44, 44, 48);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 20px;
+    display: flex;
+    flex-flow:row-reverse wrap;
+    justify-content:flex-start;
+    padding: 5px;
+    margin: 5px;
+    border-radius:5px;
+}
+
+.glavniDiv
+{
+    background-color: rgb(44, 44, 48);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.komande
+{
+    display:flex;
+    flex:1 0;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+    border-radius:5px;
+    height: fit-content;
+}
+
+label
+{
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+body
+{
+    font-family:Georgia;
+    font-size:small;
+}
+
+html
+{
+    background-image: url("../media/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.labelaUI
+{
+    background-color: lightgray;
+    width: 90%;
+    align-self:center;
+}
+
+input
+{
+    width: 90%;
+    align-self: center;
+}
+
+button
+{
+    width: 90%;
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+
+.btnNazad
+{
+    align-self: center;
+    height: fit-content;
+}
+
+@media (hover:hover)
+{
+    button:hover{
+        background-color: rgb(44, 44, 48);
+        color:gainsboro;
+    }
+
+    button:active{
+        background-color: rgb(75, 74, 74);
+    }
+}
+
+@media (max-width: 1200px) 
+{
+    h1
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .artikal
+    {
+        display: flex;
+        flex-flow: column wrap;
+        flex:1 0;
+        margin:5px;
+        width:90%;
+        align-self: center;
+        border-radius:5px;
+    }
+    .artikli
+    {
+        display: flex;
+        flex-flow:column wrap;
+        background-color: rgb(75, 74, 74);
+        padding: 5px;
+        margin: 5px;
+        border-radius:5px;
+        width:95%;
+    }
+    .korparacun
+    {
+        display: flex;
+        flex-flow:column wrap;
+        align-items: center;
+        background-color: rgb(75, 74, 74);
+        padding: 5px;
+        margin: 5px;
+        border-radius:5px;
+        width:95%;
+    }
+    .glavniProzor
+    {
+        background-color: rgb(44, 44, 48);
+        border-radius: 10px;
+        padding-bottom: 20px;
+        margin: 20px;
+        display: flex;
+        flex-flow:column wrap;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+        border-radius:5px;
+    }
+    .glavniDiv
+    {
+        background-color: rgb(44, 44, 48);
+        border-radius: 10px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .komande
+    {
+        display:flex;
+        flex:1 0;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        background-color: lightgray;
+        padding: 5px;
+        margin: 5px;
+        border-radius:5px;
+        width:95%;
+    }
+    body
+    {
+        font-size: x-large;
+    }
+    button
+    {
+        font-size:larger;
+    }
+    input
+    {
+        height: 30px;
+        width: 90%;
+    }
+}
